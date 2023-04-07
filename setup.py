@@ -4,7 +4,7 @@ with open("requirements.txt") as f:
 	install_requires = f.read().strip().split("\n")
 
 # get version from __version__ variable in permission_level_for_reports/__init__.py
-from permission_level_for_reports import __version__ as version
+from pivot_table import __version__ as version
 
 setup(
 	name='pivot_table',
